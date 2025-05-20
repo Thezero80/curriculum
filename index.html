@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FabianSM</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para iconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand glitch" href="#" data-text="Currículum">FabianSM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#summary">Resumen</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Educación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certificaciones</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section con Partículas -->
+    <section id="hero" class="bg-dark text-light py-5 position-relative">
+        <canvas id="particles"></canvas>
+        <div class="container position-relative">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-4 glitch" data-text="Nombre Apellido">Miguel Angel Fabian Sangama</h1>
+                    <p class="lead typing-effect">Desarrollador Web Full Stack</p>
+                    <p>Apasionado por la tecnología y el desarrollo de software.</p>
+                    <div class="d-flex justify-content-center">
+                        <a href="#" class="btn btn-neon mt-3">Descargar CV</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center position-relative">
+                    <br>
+                    <div class="profile-img-wrapper mx-auto">
+                        <img src="img/profile.jpeg" alt="Foto de perfil" class="img-fluid rounded-circle load-image profile-img-glitch" style="max-width: 200px;">
+                        <div class="profile-img-border"></div>
+                        <div class="profile-img-scan"></div>
+                        <div class="profile-img-glow"></div>
+                    </div>
+                </div>
+                <!-- Agrega este CSS en tu archivo style.css o dentro de una etiqueta <style> en el <head> -->
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Summary Section -->
+    <section id="summary" class="section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 scan-line">Resumen</h2>
+            <p class="load-text">
+                Soy un desarrollador web full stack apasionado por la tecnología y el aprendizaje continuo. Mi objetivo es crear soluciones innovadoras que impacten positivamente en las personas y las organizaciones. Busco crecer profesionalmente en entornos dinámicos, colaborando en proyectos desafiantes que me permitan aportar mis conocimientos y seguir desarrollando nuevas habilidades.
+            </p></p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 scan-line">Habilidades</h2>
+            <div class="row">
+                <div class="col-md-4 load-card">
+                    <h4><i class="fas fa-code"></i> Lenguajes de Programación</h4>
+                    <ul class="text-secondary">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 load-card">
+                    <h4><i class="fas fa-layer-group"></i> Frameworks y Librerías</h4>
+                    <ul class="text-secondary">
+                        <li>Bootstrap</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 load-card">
+                    <h4><i class="fas fa-tools"></i> Herramientas</h4>
+                    <ul class="text-secondary">
+                        <li>Git</li>
+                        <li>VS Code</li>
+                        <li>Figma</li>
+                        <li>Postman</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 scan-line">Experiencia Laboral</h2>
+            <div class="row">
+                <div class="col-md-6 load-card">
+                    <h4>CEO - Thezero Academy</h4>
+                    <p>Junio 2022 - Presente</p>
+                    <p>Como CEO de Thezero Academy, lidero la estrategia y visión de la empresa, gestionando equipos multidisciplinarios, impulsando el crecimiento del negocio y supervisando el desarrollo de proyectos educativos innovadores en tecnología.</p>
+                </div>
+                <div class="col-md-6 load-card">
+                    <h4>Desarrollador Web - Thezero Academy</h4>
+                    <p>Enero 2020 - Mayo 2022</p>
+                    <p>Desarrollé y mantuve sitios web educativos utilizando tecnologías modernas, colaboré en equipos multidisciplinarios para crear soluciones innovadoras y optimicé la experiencia de usuario en los proyectos de Thezero Academy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 scan-line">Educación</h2>
+            <div class="row">
+                <div class="col-md-6 load-card">
+                    <h4>Ingeniería Informática y Sistemas - UNAS</h4>
+                    <p class="text-secondary">2023 - Presente</p>
+                </div>
+                <div class="col-md-6 load-card">
+                    <h4>Curso de Desarrollo Web - Cisco Academy</h4>
+                    <p class="text-secondary">2020</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 scan-line">Proyectos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 load-card">
+                        <img src="https://media.istockphoto.com/id/1530256492/es/vector/concepto-de-desarrollo-de-software-ordenador-port%C3%A1til-con-pantalla-abierta-colgando-sobre-el.jpg?s=612x612&w=0&k=20&c=BCvNmU3KwP5LtQXIA8dmf7-ebXn7tenm6OBHXDWr8pU=" class="card-img-top load-image" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Proyecto 1</h5>
+                            <p class="card-text text-light">Descripción breve del proyecto.</p>
+                            <a href="#" class="btn btn-neon">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 load-card">
+                        <img src="https://media.istockphoto.com/id/1530256492/es/vector/concepto-de-desarrollo-de-software-ordenador-port%C3%A1til-con-pantalla-abierta-colgando-sobre-el.jpg?s=612x612&w=0&k=20&c=BCvNmU3KwP5LtQXIA8dmf7-ebXn7tenm6OBHXDWr8pU=" class="card-img-top load-image" alt="Proyecto 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Proyecto 2</h5>
+                            <p class="card-text text-light">Descripción breve del proyecto.</p>
+                            <a href="#" class="btn btn-neon">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 load-card">
+                        <img src="https://media.istockphoto.com/id/1530256492/es/vector/concepto-de-desarrollo-de-software-ordenador-port%C3%A1til-con-pantalla-abierta-colgando-sobre-el.jpg?s=612x612&w=0&k=20&c=BCvNmU3KwP5LtQXIA8dmf7-ebXn7tenm6OBHXDWr8pU=" class="card-img-top load-image" alt="Proyecto 3">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Proyecto 3</h5>
+                            <p class="card-text text-light">Descripción breve del proyecto.</p>
+                            <a href="#" class="btn btn-neon">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 scan-line">Certificaciones</h2>
+            <ul class="load-text text-secondary">
+                <li>Certificación en Desarrollo Web - Cisco Academy</li>
+                <li>Certificación en JavaScript - Cisco Academy</li>
+                <li>Certificación en Python - Google Academy</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p>© 2025 Miguel Angel Fabian Sangama. Todos los derechos reservados.</p>
+            <p>
+                <a href="mailto:thezeroteam27@gmail.com" class="text-light mx-2"><i class="fas fa-envelope"></i> Email</a> |
+                <a href="#" class="text-light mx-2"><i class="fab fa-github"></i> GitHub</a> |
+                <a href="#" class="text-light mx-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
